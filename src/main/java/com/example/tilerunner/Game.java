@@ -1,4 +1,6 @@
 package com.example.tilerunner;
 
-public class Game {
+public  abstract class Game {
+    public abstract void BeginningMessage();
+    public abstract void EndMessage();
 }
