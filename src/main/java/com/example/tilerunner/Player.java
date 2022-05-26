@@ -1,8 +1,6 @@
 package com.example.tilerunner;
 
-import java.util.Scanner;
-
-public class Player {
+public class Player implements iDisplay{
 
     private String name;//player name.
     private int position;//player position on the board.
